@@ -2,6 +2,7 @@ import './App.css';
 
 import React from 'react'
 import ImageSlider from './components/ImageSlider'
+import VideoGallery from './components/VideoGallery';
 
 const App = () => {
   const slides=[
@@ -17,9 +18,10 @@ const App = () => {
     {img:'./Assets/312132545_407570171582181_699030587668412012_n.jpg'},
   ]
   return (
-    <div>
+    <div className='container'>
       <h1>Photos Gallery</h1>
       <ImageSlider slides={slides} />
+      <VideoGallery />
     </div>
   )
 }
