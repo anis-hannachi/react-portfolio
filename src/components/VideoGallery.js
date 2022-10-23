@@ -39,7 +39,7 @@ const VideoGallery = () => {
   ];
   return (
     <>
-      <h1>Video Gallery</h1>
+      <h2>Video Gallery</h2>
       <div className="gallery">
         {data.map((item, index) => {
           let divRef = createRef;

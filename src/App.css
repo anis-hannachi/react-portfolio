@@ -2,6 +2,12 @@ h1 {
   text-align: center;
   font-size: 3rem;
   font-style: oblique;
+  color: darkgray;
+}
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-style: oblique;
   text-decoration: underline;
   color: darkgray;
 }
